@@ -1,5 +1,21 @@
+# Виртуальное окружение
 .venv/
+
+# Секретные настройки
+.env
+
+# База данных
+*.db
+*.sqlite3
+
+# Python
 __pycache__/
 *.py[cod]
-.env
+
+# macOS
 .DS_Store
+
+# Тестирование
+.pytest_cache/
+.coverage
+htmlcov/
